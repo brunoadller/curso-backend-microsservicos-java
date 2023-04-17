@@ -1,0 +1,20 @@
+Objetico:
+
+Criar uma API RESTfull para controle de produtos
+
+
+1º => (ENTIDADE) Modelo: modelo de negócio
+Produto: id, nome, quantidade, valor, observação
+
+2º => Repositorio(Repository) de produtos:
+  Criar a classe ProdutoRepository:
+    1ª notação: @Repository na classe para indicar que é um repositório
+    2º criar os metodos que serão chamados posteriormente no services
+  Metodos:
+    ObterTodos, ObterPorId, adicionar, aualizarProduto, deletarProduto.
+
+3º => Servico de produto
+  a) Pedira pro repositorio fazer o crud
+
+4º => Controller do produto
+  Obter os mesmos dados e salvar em uma rota
